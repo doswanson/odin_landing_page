@@ -1,0 +1,36 @@
+* {
+    border: 2px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Check previous project for setting font-family for page */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    padding: 16px;
+}
+
+.header p {
+    color: #E5E7EB;
+}
+
+.header .r-links {
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.header .r-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-img {
+    margin-left: auto;
+}
+
+.header .h-info {
+    width: 60%;
+}
