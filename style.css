@@ -1,27 +1,63 @@
+
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 /* Check previous project for setting font-family for page */
 
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1f2937;
-    padding: 16px;
+body {
+    margin: 0px;
 }
 
-.header p {
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 6px 24px;
+}
+
+p {
     color: #E5E7EB;
 }
 
-.header .r-links {
-    margin-left: auto;
-    margin-bottom: 50px;
+.header1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    padding: 20px 50px;
+    align-items: center;
 }
 
-.header .r-links a {
+.header2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    padding: 10% 2%;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#E5E7EB;
+    margin-left: auto;
+}
+
+.r-links {
+    display: flex;
+    margin-left: auto;
+    width: 50%;
+    justify-content: space-between;
+}
+
+a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -31,6 +67,10 @@
     margin-left: auto;
 }
 
-.header .h-info {
-    width: 60%;
+.h-info {
+    width: 40%;
+}
+
+.h-title {
+    width: 100%;
 }
